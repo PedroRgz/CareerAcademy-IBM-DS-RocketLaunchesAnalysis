@@ -3,6 +3,7 @@ pandas
 numpy
 matplotlib
 seaborn
+dash
 beautifulsoup4
 requests
 sqlalchemy
