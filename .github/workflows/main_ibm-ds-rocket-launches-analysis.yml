@@ -13,8 +13,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+
+  build-and-deploy:
+    runs-on: ubuntu-latest
     permissions:
       contents: read #This is required for actions/checkout
+    defaults:
+      run:
+        working-directory: ./dashboard
 
     steps:
       - uses: actions/checkout@v4
@@ -78,4 +85,3 @@ jobs:
         with:
           app-name: 'ibm-ds-rocket-launches-analysis'
           slot-name: 'Production'
-          
