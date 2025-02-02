@@ -1,0 +1,12 @@
+aiohttp
+pandas
+numpy
+matplotlib
+seaborn
+beautifulsoup4
+requests
+sqlalchemy
+ipython-sql
+sklearn
+folium
+wget
